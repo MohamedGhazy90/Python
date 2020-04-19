@@ -1,0 +1,9 @@
+starting_day = input("Input the starting day: ")
+int_starting_day = int(starting_day)
+
+staying = input("how long you will stay: ")
+int_staying = int(staying)
+
+returning_day = int_starting_day + int_staying
+duration = returning_day % 6
+print("you will return at day:",duration)
